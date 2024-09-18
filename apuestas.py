@@ -9,7 +9,7 @@ class Jugador:
     def darFicha(self, cuantas=1):
         self.fichas += cuantas
 
-    def sacarFicha(self, cuantas=1):
+    def ponerFicha(self, cuantas=1):
         if cuantas > self.fichas:
             raise ValueError("No hay suficientes fichas para sacar")
         self.fichas -= cuantas

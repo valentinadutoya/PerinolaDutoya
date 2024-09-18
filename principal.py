@@ -1,6 +1,6 @@
-from Perinola import Perinola
-from Apuestas import Apuesta
-from Jugador import Jugador
+from perinola import Perinola
+from apuestas import Apuesta
+from jugador import Jugador
 
 p = Perinola()
 p.tirar()
