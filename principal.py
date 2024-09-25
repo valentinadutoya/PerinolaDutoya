@@ -1,5 +1,5 @@
 from perinola import Perinola
-from apuestas import Apuesta
+from Apuestas import Apuestas
 from jugador import Jugador
 
 p = Perinola()
@@ -8,7 +8,7 @@ print(p.cara_visible)
 
 
 
-a = Apuesta()
+a = Apuestas()
 a.ponerFichas(5)
 print(a)
 
